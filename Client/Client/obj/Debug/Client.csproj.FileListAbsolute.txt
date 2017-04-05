@@ -1,0 +1,6 @@
+G:\виртуалки\Client\Client\bin\Debug\Client.exe.config
+G:\виртуалки\Client\Client\bin\Debug\Client.exe
+G:\виртуалки\Client\Client\bin\Debug\Client.pdb
+G:\виртуалки\Client\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+G:\виртуалки\Client\Client\obj\Debug\Client.exe
+G:\виртуалки\Client\Client\obj\Debug\Client.pdb
