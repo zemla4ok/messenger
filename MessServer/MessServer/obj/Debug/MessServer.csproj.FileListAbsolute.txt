@@ -1,0 +1,6 @@
+G:\виртуалки\MessServer\MessServer\bin\Debug\MessServer.exe.config
+G:\виртуалки\MessServer\MessServer\bin\Debug\MessServer.exe
+G:\виртуалки\MessServer\MessServer\bin\Debug\MessServer.pdb
+G:\виртуалки\MessServer\MessServer\obj\Debug\MessServer.csprojResolveAssemblyReference.cache
+G:\виртуалки\MessServer\MessServer\obj\Debug\MessServer.exe
+G:\виртуалки\MessServer\MessServer\obj\Debug\MessServer.pdb

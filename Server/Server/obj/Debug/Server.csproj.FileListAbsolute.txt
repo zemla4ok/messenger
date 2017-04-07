@@ -1,6 +1,0 @@
-G:\виртуалки\Server\Server\bin\Debug\Server.exe.config
-G:\виртуалки\Server\Server\bin\Debug\Server.exe
-G:\виртуалки\Server\Server\bin\Debug\Server.pdb
-G:\виртуалки\Server\Server\obj\Debug\Server.exe
-G:\виртуалки\Server\Server\obj\Debug\Server.pdb
-G:\виртуалки\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
