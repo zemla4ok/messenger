@@ -4,3 +4,12 @@ G:\виртуалки\MessServer\MessServer\bin\Debug\MessServer.pdb
 G:\виртуалки\MessServer\MessServer\obj\Debug\MessServer.csprojResolveAssemblyReference.cache
 G:\виртуалки\MessServer\MessServer\obj\Debug\MessServer.exe
 G:\виртуалки\MessServer\MessServer\obj\Debug\MessServer.pdb
+G:\виртуалки\MyMess\MessServer\MessServer\bin\Debug\MessServer.exe.config
+G:\виртуалки\MyMess\MessServer\MessServer\obj\Debug\MessServer.exe
+G:\виртуалки\MyMess\MessServer\MessServer\obj\Debug\MessServer.pdb
+G:\виртуалки\MyMess\MessServer\MessServer\bin\Debug\MessServer.exe
+G:\виртуалки\MyMess\MessServer\MessServer\bin\Debug\MessServer.pdb
+G:\виртуалки\MyMess\MessServer\MessServer\obj\Debug\MessServer.csprojResolveAssemblyReference.cache
+C:\Users\Dmitry\Desktop\Messenger\MyMess\MessServer\MessServer\bin\Debug\MessServer.exe.config
+C:\Users\Dmitry\Desktop\Messenger\MyMess\MessServer\MessServer\obj\Debug\MessServer.exe
+C:\Users\Dmitry\Desktop\Messenger\MyMess\MessServer\MessServer\obj\Debug\MessServer.pdb

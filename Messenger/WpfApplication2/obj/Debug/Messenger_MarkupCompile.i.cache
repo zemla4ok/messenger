@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-G:\виртуалки\WpfApplication2\WpfApplication2\obj\Debug\
+F:\Messenger\MyMess\Messenger\WpfApplication2\obj\Debug\
 WpfApplication2
 none
 false
 DEBUG;TRACE
-G:\виртуалки\WpfApplication2\WpfApplication2\App.xaml
-2-1442674848
+F:\Messenger\MyMess\Messenger\WpfApplication2\App.xaml
+51598267490
 
-12-1030799617
-14-1787462521
-MainWindow.xaml;RegistrationWindow.xaml;
+2321654127
+151984215308
+ChatWindow.xaml;Information.xaml;MainWindow.xaml;Menu.xaml;RegistrationWindow.xaml;
 
 True
 

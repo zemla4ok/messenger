@@ -6,35 +6,35 @@
         xmlns:local="clr-namespace:WpfApplication2"
         mc:Ignorable="d"
         Title="Registration" Height="641" Width="238" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
-    <Grid Background="#FF607BD4">
-        <TextBlock HorizontalAlignment="Left" Margin="25,10,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top"/>
-        <TextBox x:Name="Name" Height="23" Margin="24,31,88,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+    <Grid Background="#FF2A0034">
+        <TextBlock HorizontalAlignment="Left" Margin="25,10,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Foreground="#FFEB77FF" FontFamily="Times New Roman" FontSize="14"/>
+        <TextBox x:Name="Name" Height="23" Margin="24,31,88,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Foreground="#FF2A0034" FontSize="15" FontFamily="Times New Roman" VerticalContentAlignment="Center"/>
 
-        <TextBlock HorizontalAlignment="Left" Margin="25,65,0,0" TextWrapping="Wrap" Text="Surname" VerticalAlignment="Top"/>
-        <TextBox x:Name="Surname" HorizontalAlignment="Left" Height="23" Margin="25,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="25,65,0,0" TextWrapping="Wrap" Text="Surname" VerticalAlignment="Top" Foreground="#FFEB77FF" FontFamily="Times New Roman" FontSize="14"/>
+        <TextBox x:Name="Surname" HorizontalAlignment="Left" Height="23" Margin="25,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Foreground="#FF2A0034" FontSize="15" FontFamily="Times New Roman" VerticalContentAlignment="Center"/>
 
-        <TextBlock HorizontalAlignment="Left" Margin="25,125,0,0" TextWrapping="Wrap" Text="Nick Name" VerticalAlignment="Top"/>
-        <TextBox x:Name="NickName" HorizontalAlignment="Left" Height="23" Margin="25,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="25,125,0,0" TextWrapping="Wrap" Text="Nick Name" VerticalAlignment="Top" Foreground="#FFEB77FF" FontFamily="Times New Roman" FontSize="14"/>
+        <TextBox x:Name="NickName" HorizontalAlignment="Left" Height="23" Margin="25,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Foreground="#FF2A0034" FontSize="15" FontFamily="Times New Roman" VerticalContentAlignment="Center"/>
 
-        <TextBlock HorizontalAlignment="Left" Margin="24,190,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top"/>
-        <PasswordBox x:Name="Pass" HorizontalAlignment="Left" Margin="25,211,0,0" VerticalAlignment="Top" Width="119"/>
+        <TextBlock HorizontalAlignment="Left" Margin="24,190,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Foreground="#FFEB77FF" FontFamily="Times New Roman" FontSize="14"/>
+        <PasswordBox x:Name="Pass" HorizontalAlignment="Left" Margin="25,211,0,0" VerticalAlignment="Top" Width="120" Height="23" Foreground="#FF2A0034" FontSize="15" FontFamily="Times New Roman" VerticalContentAlignment="Center"/>
 
-        <TextBlock HorizontalAlignment="Left" Margin="24,250,0,0" TextWrapping="Wrap" Text="Repeat password" VerticalAlignment="Top"/>
-        <PasswordBox x:Name="Pass2" HorizontalAlignment="Left" Margin="24,271,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="24,250,0,0" TextWrapping="Wrap" Text="Repeat password" VerticalAlignment="Top" Foreground="#FFEB77FF" FontFamily="Times New Roman" FontSize="14"/>
+        <PasswordBox x:Name="Pass2" HorizontalAlignment="Left" Margin="24,271,0,0" VerticalAlignment="Top" Width="120" Height="23" Foreground="#FF2A0034" FontSize="15" FontFamily="Times New Roman" VerticalContentAlignment="Center"/>
 
-        <TextBlock HorizontalAlignment="Left" Margin="30,310,0,0" TextWrapping="Wrap" Text="Your gender" VerticalAlignment="Top"/>
-        <RadioButton x:Name="Male" Content="Male" HorizontalAlignment="Left" Margin="30,331,0,0" VerticalAlignment="Top"/>
-        <RadioButton x:Name="Female" Content="Female" HorizontalAlignment="Left" Margin="95,331,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="30,310,0,0" TextWrapping="Wrap" Text="Gender" VerticalAlignment="Top" Foreground="#FFEB77FF" FontFamily="Times New Roman" FontSize="14"/>
+        <RadioButton x:Name="Male" Content="Male" HorizontalAlignment="Left" Margin="30,331,0,0" VerticalAlignment="Top" Foreground="#FFEB77FF" FontFamily="Times New Roman" FontSize="14"/>
+        <RadioButton x:Name="Female" Content="Female" HorizontalAlignment="Left" Margin="95,331,0,0" VerticalAlignment="Top" Foreground="#FFEB77FF" FontFamily="Times New Roman" FontSize="14"/>
 
-        <TextBlock HorizontalAlignment="Left" Margin="30,360,0,0" TextWrapping="Wrap" Text="Birth date" VerticalAlignment="Top"/>
-        <DatePicker x:Name="Date" HorizontalAlignment="Left" Margin="30,381,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="30,360,0,0" TextWrapping="Wrap" Text="Date of Birth" VerticalAlignment="Top" Foreground="#FFEB77FF" FontFamily="Times New Roman" FontSize="14"/>
+        <DatePicker x:Name="Date" HorizontalAlignment="Left" Margin="30,381,0,0" VerticalAlignment="Top" Width="120" Height="23" Foreground="#FF2A0034" FontSize="15" FontFamily="Times New Roman" VerticalContentAlignment="Center"/>
 
-        <TextBlock HorizontalAlignment="Left" Margin="30,429,0,0" TextWrapping="Wrap" Text="Country" VerticalAlignment="Top"/>
-        <TextBox x:Name="Country" HorizontalAlignment="Left" Height="23" Margin="30,450,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="30,429,0,0" TextWrapping="Wrap" Text="Country" VerticalAlignment="Top" Foreground="#FFEB77FF" FontFamily="Times New Roman" FontSize="14"/>
+        <TextBox x:Name="Country" HorizontalAlignment="Left" Height="23" Margin="30,450,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Foreground="#FF2A0034" FontSize="15" FontFamily="Times New Roman" VerticalContentAlignment="Center"/>
 
-        <TextBlock HorizontalAlignment="Left" Margin="33,495,0,0" TextWrapping="Wrap" Text="City" VerticalAlignment="Top"/>
-        <TextBox x:Name="City" HorizontalAlignment="Left" Height="23" Margin="30,516,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="33,495,0,0" TextWrapping="Wrap" Text="City" VerticalAlignment="Top" Foreground="#FFEB77FF" FontFamily="Times New Roman" FontSize="14"/>
+        <TextBox x:Name="City" HorizontalAlignment="Left" Height="23" Margin="30,516,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Foreground="#FF2A0034" FontSize="15" FontFamily="Times New Roman" VerticalContentAlignment="Center"/>
 
-        <Button Content="Button" Click="Button_Click" HorizontalAlignment="Left" Margin="70,555,0,0" VerticalAlignment="Top" Width="105" Height="40"/>
+        <Button Content="Registrate" Click="Button_Click" HorizontalAlignment="Left" Margin="65,555,0,0" VerticalAlignment="Top" Width="105" Height="40" Background="#FF6B1D78" Foreground="#FFEB77FF" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold"/>
     </Grid>
 </Window>

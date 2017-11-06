@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -8,6 +9,13 @@ namespace WpfApplication2
 {
     static class Validator
     {
+        public static bool ValidateMessage(string msg)
+        {
+            if (msg == "" || msg == "Write message...")
+                return true;
+            return false;
+        }
+
         public static bool ValidTextBoxes(params string[] strings)
         {
             foreach (string i in strings)
@@ -28,6 +36,6 @@ namespace WpfApplication2
                 return false;
             else
                 return true;
-        }
+        }    
     }
 }

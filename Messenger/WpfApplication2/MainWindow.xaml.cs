@@ -31,5 +31,32 @@ namespace WpfApplication2
             regWind.Show();
             this.Close();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                if (!Validator.ValidTextBoxes(this.Name.Text, this.Pass.Password))
+                    MessageBox.Show("Enter your nickname and password");
+                else
+                {
+                    User thisUser = new User(this.Name.Text, this.Pass.Password);
+                    ServerObject.SendMessage("11", thisUser.GetLogAndPass());
+                    string exMess = ServerObject.GetMessage();
+                    if (exMess == "false")
+                    {
+                        Menu menu = new Menu(this.Name.Text);
+                        menu.Show();
+                        this.Close();
+                    }
+                    else
+                        MessageBox.Show("логин и/или пароль неверны");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
     }
 }

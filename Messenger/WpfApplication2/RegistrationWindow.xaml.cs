@@ -37,10 +37,17 @@ namespace WpfApplication2
                 User user = new User(this.Name.Text, this.Surname.Text, this.NickName.Text,
                     this.Male.IsChecked == true ? this.Male.Name : this.Female.Name,
                     this.Date.Text, this.Country.Text, this.City.Text, this.Pass.Password);
-                //USER to server
-                MainWindow mainWind = new MainWindow();
-                mainWind.Show();
-                this.Close();
+                ServerObject.SendMessage("10", user.ToString());
+
+                string exMess = ServerObject.GetMessage();
+                if (exMess == "false")
+                {
+                    MainWindow mainWind = new MainWindow();
+                    mainWind.Show();
+                    this.Close();
+                }
+                else
+                    MessageBox.Show("Такой никнейм уже существует");   
             }
         }
     }

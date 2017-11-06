@@ -6,17 +6,17 @@
         xmlns:local="clr-namespace:WpfApplication2"
         mc:Ignorable="d"
         Title="Authorization" Height="350" Width="329" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
-    <Grid Background="#FF607BD4">
-        <TextBlock HorizontalAlignment="Left" Margin="40,22,0,0" TextWrapping="Wrap" Text="LOGIN" VerticalAlignment="Top" FontFamily="Cooper Black" FontSize="24" Foreground="#FF11EEE4"/>
+    <Grid Background="#FF2A0034">
+        <TextBlock HorizontalAlignment="Left" Margin="40,10,0,0" TextWrapping="Wrap" Text="LOGIN" VerticalAlignment="Top" FontFamily="Cooper Black" FontSize="30" Foreground="#FFEB77FF"/>
 
-        <TextBlock HorizontalAlignment="Left" Margin="40,69,0,0" TextWrapping="Wrap" Text="User Name" VerticalAlignment="Top" Foreground="#FF11EEE4"/>
-        <TextBox HorizontalAlignment="Left" Height="30" Margin="40,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155"/>
+        <TextBlock HorizontalAlignment="Left" Margin="40,73,0,0" TextWrapping="Wrap" Text="User Name" VerticalAlignment="Top" Foreground="#FFEB77FF" FontFamily="Times New Roman" FontSize="14"/>
+        <TextBox x:Name="Name" HorizontalAlignment="Left" Height="30" Margin="40,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" FontSize="15" Foreground="#FF2A0034" VerticalContentAlignment="Center"/>
 
-        <TextBlock HorizontalAlignment="Left" Margin="40,134,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Foreground="#FF11EEE4"/>
-        <PasswordBox HorizontalAlignment="Left" Margin="40,150,0,0" VerticalAlignment="Top" Width="155" Height="30"/>
+        <TextBlock HorizontalAlignment="Left" Margin="40,134,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Foreground="#FFEB77FF" FontFamily="Times New Roman" FontSize="14"/>
+        <PasswordBox x:Name="Pass" HorizontalAlignment="Left" Margin="40,150,0,0" VerticalAlignment="Top" Width="155" Height="30" VerticalContentAlignment="Center" Foreground="#FF2A0034" FontSize="16"/>
 
-        <Button Content="LOG IN" HorizontalAlignment="Left" Margin="75,200,0,0" VerticalAlignment="Top" Width="75" Background="#FF2333D3" Foreground="#FF11EEE4"/>
+        <Button Content="LOG IN" Click="Button_Click_1" HorizontalAlignment="Left" Margin="75,200,0,0" VerticalAlignment="Top" Width="75" Background="#FF6B1D78" Foreground="#FFEB77FF" FontWeight="Bold"/>
 
-        <Button Content="Registration" Click="Button_Click" HorizontalAlignment="Left" Margin="75,255,0,0" VerticalAlignment="Top" Width="175" Height="40" Background="#FF2333D3" Foreground="#FF11EEE4" FontSize="18"/>
+        <Button Content="Registration" Click="Button_Click" HorizontalAlignment="Left" Margin="75,255,0,0" VerticalAlignment="Top" Width="175" Height="40" Background="#FF6B1D78" Foreground="#FFEB77FF" FontSize="18" FontWeight="Bold"/>
     </Grid>
 </Window>
